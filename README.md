@@ -1,7 +1,7 @@
 # Setting up a Notesnook Server on a Raspberry Pi 5
 
 **What you will need:**
-- Raspberry Pi 5 with Raspberry Pi OS x64 installed and a static IP address assigned to it
+- Raspberry Pi 5 with Raspberry Pi OS x64 installed and a static LAN IP address assigned to it (you dont need static WAN for this setup)
 - A domain or $10 to purchase a domain
   - This guide uses a Cloudflare Tunnel for external access. For this reason I recommend purchasing your domain through Cloudflare for simplicity
 
