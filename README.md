@@ -596,7 +596,7 @@ openssl rand -hex 16
 **Connect your app to your server and you are done!**
 
 > [!CAUTION]
-> Right now, there is nothing to allow you to recover a damaged database, so you could lose all your data if there is an issue. You should be backing up your `~/docker/notesnook/db` and `/s3` directories nightly. If you have an existing backup solution, go for it, otherwise you can use this guide to utilize rsync for backup.
+> Right now, there is nothing to allow you to recover a damaged database, so you could lose all your data if there is an issue. You should be backing up your `~/docker/notesnook/db` and `/s3` directories nightly. If you have an existing backup solution, go for it, otherwise you can use this guide to utilize rsync for backup: https://linuxconfig.org/how-to-backup-raspberry-pi
 
 ---
 
